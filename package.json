@@ -1,0 +1,17 @@
+{
+  "name": "svg-sprite-loader-test-case",
+  "version": "0.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rm -rf ./build/**",
+    "sprite-test": "npm run build && node test-sprite-on-node.js"
+  },
+  "author": "kisenka <qtuzov@gmail.com> (https://github.com/kisenka)",
+  "license": "ISC",
+  "dependencies": {
+    "svg-sprite-loader": "0.0.18",
+    "webpack": "^1.13.0"
+  }
+}
